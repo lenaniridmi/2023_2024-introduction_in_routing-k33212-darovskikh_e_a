@@ -35,6 +35,8 @@ Date of finished: 20.12.2023
 
 ### Настройка роутера MSK и Компьютера Msk (PC1)
 
+Все dhcp сервера на роутерах настроены в сторону клиентских устройств, в данном случае везде это ether2 (при настройке интерфейсов всегда считаем +1, так как в containerlab ether1 всегда занят VPN Address)
+
 * Роутер Msk ```telnet 172.22.100.5```
 
  ![image](https://github.com/lenaniridmi/2023_2024-introduction_in_routing-k33212-darovskikh_e_a/assets/90695447/74bea150-d98f-47fc-8f67-6e9054260e0a)  
@@ -72,11 +74,15 @@ Date of finished: 20.12.2023
 * От PC.BRL к PC.FRT  
 ![image](https://github.com/lenaniridmi/2023_2024-introduction_in_routing-k33212-darovskikh_e_a/assets/90695447/a9056ea4-8464-4011-9861-8df3ff2f20ca)
 
+______
+
 * От PC.FRT к PC.MSK  
 ![image](https://github.com/lenaniridmi/2023_2024-introduction_in_routing-k33212-darovskikh_e_a/assets/90695447/2d7f771e-3259-4c57-8f45-2e19955d377d)
 
 * От PC.FRT к PC.BRL    
 ![image](https://github.com/lenaniridmi/2023_2024-introduction_in_routing-k33212-darovskikh_e_a/assets/90695447/470a7473-5af7-46dc-9cd3-96720d57f991)
+
+______
 
 * От PC.MSK к PC.BRL  
 ![image](https://github.com/lenaniridmi/2023_2024-introduction_in_routing-k33212-darovskikh_e_a/assets/90695447/dea72d08-a745-45fa-8bf1-18cf22404b33)
@@ -85,3 +91,4 @@ Date of finished: 20.12.2023
 ![image](https://github.com/lenaniridmi/2023_2024-introduction_in_routing-k33212-darovskikh_e_a/assets/90695447/3c9b90a1-2fb5-49d4-8a31-a006d373972a)
 
 ## Вывод
+В ходе выполнения данной лабораторной работы были получены знания о принципах планирования IP адресов, настройки статической маршрутизации и сетевых функциях устройств.
