@@ -32,6 +32,9 @@ Date of finished: 19.12.2023
 ### Настройка роутера R01  
 ```telnet 192.168.50.7```  
 
+Dhcp сервера для 2 компьютеров будут находиться на главном роутере. 
+В containerlab ether1 всегда занят VPN Address 172.31.255.30, потому что это адрес виртуальной сети, которая используется для подключения контейнеров, поэтому при настройке интерфейсов всегда считаем +1 к нужному порту
+
 ![image](https://github.com/lenaniridmi/2023_2024-introduction_in_routing-k33212-darovskikh_e_a/assets/90695447/6fed2703-dc22-43d0-a4ae-9700630df02a)
 
 ### Настройка SW01.L3.01  
@@ -60,3 +63,13 @@ Date of finished: 19.12.2023
 ## Проверка  
 
 ![image](https://github.com/lenaniridmi/2023_2024-introduction_in_routing-k33212-darovskikh_e_a/assets/90695447/a1daa817-ed41-460f-9dcf-6cf881fb4ff9)
+
+![image](https://github.com/lenaniridmi/2023_2024-introduction_in_routing-k33212-darovskikh_e_a/assets/90695447/4afcd7a9-eb3c-4314-a185-4ed631859a87)
+
+![image](https://github.com/lenaniridmi/2023_2024-introduction_in_routing-k33212-darovskikh_e_a/assets/90695447/93782815-c832-4e82-b2fd-5e27eece335a)
+
+
+## Вывод
+
+В ходе выполнения данной лабораторной работы мы ознакомились с инструментом ContainerLab, была развернута тестовая сеть связи, а также настроено оборудование на базе Linux и RouterOS.
+
