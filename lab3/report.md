@@ -4,7 +4,7 @@ Course: [Introduction in routing](https://github.com/itmo-ict-faculty/introducti
 Year: 2023/2024  
 Group: K33212  
 Author: Darovskikh Elena Alekseevna  
-Lab: Lab2  
+Lab: Lab3  
 Date of create: 20.12.2023  
 Date of finished: 21.12.2023
 
@@ -41,16 +41,19 @@ MPLS - технология коммутации пакетов, которая 
 * Router NYC ```telnet 172.31.31.9```
 
 ![image](https://github.com/lenaniridmi/2023_2024-introduction_in_routing-k33212-darovskikh_e_a/assets/90695447/cb8f62aa-e37d-45e7-9884-af9fda1dadb6)
-![image](https://github.com/lenaniridmi/2023_2024-introduction_in_routing-k33212-darovskikh_e_a/assets/90695447/f0fc8541-5b6b-426f-8d5e-d61cacd93825)
+![image](https://github.com/lenaniridmi/2023_2024-introduction_in_routing-k33212-darovskikh_e_a/assets/90695447/2bf03f7b-ad1d-4c62-aeb6-b876e72da981)
+
 
 * SGI_Prism ```telnet 172.31.31.2```
 
-![image](https://github.com/lenaniridmi/2023_2024-introduction_in_routing-k33212-darovskikh_e_a/assets/90695447/45d62953-28dc-46c4-bde9-3bbc9c3b720b)
+![image](https://github.com/lenaniridmi/2023_2024-introduction_in_routing-k33212-darovskikh_e_a/assets/90695447/076d0971-0bf0-4646-a6e8-43df490f2186)
+
 
 ### PC1 и Router SPB  
 
 * Router SPB ```telnet 172.31.31.8```
 
+![image](https://github.com/lenaniridmi/2023_2024-introduction_in_routing-k33212-darovskikh_e_a/assets/90695447/de9ec162-084c-41a4-bfe9-c0385c06c7f6)
 ![image](https://github.com/lenaniridmi/2023_2024-introduction_in_routing-k33212-darovskikh_e_a/assets/90695447/75c5a98e-f335-4b36-9834-9e75c263928f)
 ![image](https://github.com/lenaniridmi/2023_2024-introduction_in_routing-k33212-darovskikh_e_a/assets/90695447/6ca14995-deb2-4ab8-8ca1-e2910c281618)
 
@@ -63,13 +66,13 @@ MPLS - технология коммутации пакетов, которая 
 
 * Router MSK ```telnet 172.31.31.3```
 
-![image](https://github.com/lenaniridmi/2023_2024-introduction_in_routing-k33212-darovskikh_e_a/assets/90695447/9fd92995-c54c-4c65-994c-a4d683222d53)
+![image](https://github.com/lenaniridmi/2023_2024-introduction_in_routing-k33212-darovskikh_e_a/assets/90695447/318230a9-8fc2-4727-92e0-29e93b60e8bc)
 
 ### Router HKI
 
 * Router HKI ```telnet 172.31.31.7```
 
-![image](https://github.com/lenaniridmi/2023_2024-introduction_in_routing-k33212-darovskikh_e_a/assets/90695447/79e87fcf-9135-4974-b185-c1df962172d9)
+![image](https://github.com/lenaniridmi/2023_2024-introduction_in_routing-k33212-darovskikh_e_a/assets/90695447/cdc47b72-33b4-4387-b902-82d0afa35ebc)
 
 ### Router LND
 
