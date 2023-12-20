@@ -38,6 +38,8 @@ MPLS - технология коммутации пакетов, которая 
 
 Для установки MPLS-связей создаем интерфейсы Loopback (Lo) и bridge_EoMPLS для установки уникальных ip устройствам сети и для транспорта Ethernet-трафика через MPLS-сеть соответственно.
 
+Настройка VPLS нужна для обеспечения виртуальной приватной службы LAN. VPLS использует инфраструктуру MPLS для создания виртуальных локальных сетей.
+
 * Router NYC ```telnet 172.31.31.9```
 
 ![image](https://github.com/lenaniridmi/2023_2024-introduction_in_routing-k33212-darovskikh_e_a/assets/90695447/cb8f62aa-e37d-45e7-9884-af9fda1dadb6)
