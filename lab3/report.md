@@ -27,19 +27,19 @@ Date of finished: 21.12.2023
 
 ### Сеть  
 
-## PC1 и Router SPB
+### PC1 и Router SPB
 
-## SGI_Prism и Router NYC
+### SGI_Prism и Router NYC
 
-## Router HKI
+### Router HKI
 
-## Routers MSK
+### Routers MSK
 
-## Routers LBN
+### Routers LBN
 
-## Routers LND
+### Routers LND
 
-## Проверка
+### Проверка
 
-## Вывод
+### Вывод
 
