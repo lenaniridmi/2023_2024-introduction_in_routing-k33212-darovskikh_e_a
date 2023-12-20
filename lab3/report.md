@@ -58,22 +58,29 @@ MPLS - технология коммутации пакетов, которая 
 
 ![image](https://github.com/lenaniridmi/2023_2024-introduction_in_routing-k33212-darovskikh_e_a/assets/90695447/45d62953-28dc-46c4-bde9-3bbc9c3b720b)
 
+### Router MSK
+
+* Router MSK ```telnet 172.31.31.3```
+
+![image](https://github.com/lenaniridmi/2023_2024-introduction_in_routing-k33212-darovskikh_e_a/assets/90695447/9fd92995-c54c-4c65-994c-a4d683222d53)
+
 ### Router HKI
 
 * Router HKI ```telnet 172.31.31.7```
 
+![image](https://github.com/lenaniridmi/2023_2024-introduction_in_routing-k33212-darovskikh_e_a/assets/90695447/79e87fcf-9135-4974-b185-c1df962172d9)
 
-### Router MSK
+### Router LND
 
-* Router MSK ```telnet 172.31.31.3```
+* Router LND ```telnet 172.31.31.5```
+
+![image](https://github.com/lenaniridmi/2023_2024-introduction_in_routing-k33212-darovskikh_e_a/assets/90695447/c82da598-68d0-4274-ae3a-824e29136b4f)
 
 ### Router LBN
 
 * Router LBN ```telnet 172.31.31.4```
 
-### Router LND
-
-* Router LND ```telnet 172.31.31.5```
+![image](https://github.com/lenaniridmi/2023_2024-introduction_in_routing-k33212-darovskikh_e_a/assets/90695447/ccc7b6d0-d2c7-409f-851a-cd51429e4108)
 
 ### Проверка
 
