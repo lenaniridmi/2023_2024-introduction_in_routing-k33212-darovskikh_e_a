@@ -27,17 +27,40 @@ Date of finished: 21.12.2023
 
 ### Сеть  
 
+Для начала запустим нашу сеть (код .yaml прикреплен в директории ./lab3) и определим подсети на "бумаге" для удобства.
+
+![image](https://github.com/lenaniridmi/2023_2024-introduction_in_routing-k33212-darovskikh_e_a/assets/90695447/3c49bca5-e02c-45a3-8b0a-6f80d4383c0a)
+
+![image](https://github.com/lenaniridmi/2023_2024-introduction_in_routing-k33212-darovskikh_e_a/assets/90695447/1e12fa12-6ce5-40fc-aed8-73b4d7915cca)
+
 ### PC1 и Router SPB
 
-### SGI_Prism и Router NYC
+* Router SPB ```telnet 172.31.31.8```
+
+* PC1 ```172.31.31.6```
+
+### SGI_Prism и Router NYC  
+
+* Router NYC ```telnet 172.31.31.9```
+
+* SGI_Prism ```telnet 172.31.31.2```
 
 ### Router HKI
 
-### Routers MSK
+* Router HKI ```telnet 172.31.31.7```
 
-### Routers LBN
 
-### Routers LND
+### Router MSK
+
+* Router MSK ```telnet 172.31.31.3```
+
+### Router LBN
+
+* Router LBN ```telnet 172.31.31.4```
+
+### Router LND
+
+* Router LND ```telnet 172.31.31.5```
 
 ### Проверка
 
