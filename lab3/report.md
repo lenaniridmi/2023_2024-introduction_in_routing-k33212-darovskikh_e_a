@@ -33,17 +33,30 @@ Date of finished: 21.12.2023
 
 ![image](https://github.com/lenaniridmi/2023_2024-introduction_in_routing-k33212-darovskikh_e_a/assets/90695447/1e12fa12-6ce5-40fc-aed8-73b4d7915cca)
 
-### PC1 и Router SPB
+### PC1 и Router SPB  
+MPLS - технология коммутации пакетов, которая позволяет маршрутизаторам принимать решения на основе меток (labels). Протокол LDP нужен для обмена информацией о метках с соседними маршрутизаторами.
+
+Для установки MPLS-связей создаем интерфейсы Loopback (Lo) и bridge_EoMPLS для установки уникальных ip устройствам сети и для транспорта Ethernet-трафика через MPLS-сеть соответственно.
 
 * Router SPB ```telnet 172.31.31.8```
 
+![image](https://github.com/lenaniridmi/2023_2024-introduction_in_routing-k33212-darovskikh_e_a/assets/90695447/d965bcea-6b79-4928-a3ce-0d6dfff6b939)
+![image](https://github.com/lenaniridmi/2023_2024-introduction_in_routing-k33212-darovskikh_e_a/assets/90695447/6ca14995-deb2-4ab8-8ca1-e2910c281618)
+
 * PC1 ```172.31.31.6```
+
+![image](https://github.com/lenaniridmi/2023_2024-introduction_in_routing-k33212-darovskikh_e_a/assets/90695447/3494167d-4145-4bea-8e4e-c366c3e6add2)
 
 ### SGI_Prism и Router NYC  
 
 * Router NYC ```telnet 172.31.31.9```
 
+![image](https://github.com/lenaniridmi/2023_2024-introduction_in_routing-k33212-darovskikh_e_a/assets/90695447/cb8f62aa-e37d-45e7-9884-af9fda1dadb6)
+![image](https://github.com/lenaniridmi/2023_2024-introduction_in_routing-k33212-darovskikh_e_a/assets/90695447/f0fc8541-5b6b-426f-8d5e-d61cacd93825)
+
 * SGI_Prism ```telnet 172.31.31.2```
+
+![image](https://github.com/lenaniridmi/2023_2024-introduction_in_routing-k33212-darovskikh_e_a/assets/90695447/45d62953-28dc-46c4-bde9-3bbc9c3b720b)
 
 ### Router HKI
 
