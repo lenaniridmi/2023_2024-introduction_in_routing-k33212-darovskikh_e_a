@@ -33,21 +33,10 @@ Date of finished: 21.12.2023
 
 ![image](https://github.com/lenaniridmi/2023_2024-introduction_in_routing-k33212-darovskikh_e_a/assets/90695447/1e12fa12-6ce5-40fc-aed8-73b4d7915cca)
 
-### PC1 и Router SPB  
+### SGI_Prism и Router NYC  
 MPLS - технология коммутации пакетов, которая позволяет маршрутизаторам принимать решения на основе меток (labels). Протокол LDP нужен для обмена информацией о метках с соседними маршрутизаторами.
 
 Для установки MPLS-связей создаем интерфейсы Loopback (Lo) и bridge_EoMPLS для установки уникальных ip устройствам сети и для транспорта Ethernet-трафика через MPLS-сеть соответственно.
-
-* Router SPB ```telnet 172.31.31.8```
-
-![image](https://github.com/lenaniridmi/2023_2024-introduction_in_routing-k33212-darovskikh_e_a/assets/90695447/d965bcea-6b79-4928-a3ce-0d6dfff6b939)
-![image](https://github.com/lenaniridmi/2023_2024-introduction_in_routing-k33212-darovskikh_e_a/assets/90695447/6ca14995-deb2-4ab8-8ca1-e2910c281618)
-
-* PC1 ```172.31.31.6```
-
-![image](https://github.com/lenaniridmi/2023_2024-introduction_in_routing-k33212-darovskikh_e_a/assets/90695447/3494167d-4145-4bea-8e4e-c366c3e6add2)
-
-### SGI_Prism и Router NYC  
 
 * Router NYC ```telnet 172.31.31.9```
 
@@ -57,6 +46,18 @@ MPLS - технология коммутации пакетов, которая 
 * SGI_Prism ```telnet 172.31.31.2```
 
 ![image](https://github.com/lenaniridmi/2023_2024-introduction_in_routing-k33212-darovskikh_e_a/assets/90695447/45d62953-28dc-46c4-bde9-3bbc9c3b720b)
+
+### PC1 и Router SPB  
+
+* Router SPB ```telnet 172.31.31.8```
+
+![image](https://github.com/lenaniridmi/2023_2024-introduction_in_routing-k33212-darovskikh_e_a/assets/90695447/75c5a98e-f335-4b36-9834-9e75c263928f)
+![image](https://github.com/lenaniridmi/2023_2024-introduction_in_routing-k33212-darovskikh_e_a/assets/90695447/6ca14995-deb2-4ab8-8ca1-e2910c281618)
+
+* PC1 ```172.31.31.6```
+
+![image](https://github.com/lenaniridmi/2023_2024-introduction_in_routing-k33212-darovskikh_e_a/assets/90695447/3494167d-4145-4bea-8e4e-c366c3e6add2)
+
 
 ### Router MSK
 
@@ -84,5 +85,26 @@ MPLS - технология коммутации пакетов, которая 
 
 ### Проверка
 
-### Вывод
+* SGI_Prism -> PC1
 
+![image](https://github.com/lenaniridmi/2023_2024-introduction_in_routing-k33212-darovskikh_e_a/assets/90695447/c1f75c1f-0374-493f-9d81-a06adb16a40a)
+
+* PC1 -> SGI_Prism
+
+![image](https://github.com/lenaniridmi/2023_2024-introduction_in_routing-k33212-darovskikh_e_a/assets/90695447/af631e8a-05c7-4e5b-888d-4bb7ba526e17)
+
+* R01_SPB -> R01_NYC
+
+![image](https://github.com/lenaniridmi/2023_2024-introduction_in_routing-k33212-darovskikh_e_a/assets/90695447/5fd676e2-96fb-42f7-b7a0-d04a0560d687)
+
+* MPLS Forwarding Table на роутере SPB
+
+![image](https://github.com/lenaniridmi/2023_2024-introduction_in_routing-k33212-darovskikh_e_a/assets/90695447/312cac5c-3cfb-464b-88d9-0395b932353f)
+
+* IP routes на роутере SPB
+
+![image](https://github.com/lenaniridmi/2023_2024-introduction_in_routing-k33212-darovskikh_e_a/assets/90695447/c71b1b8f-8acc-497b-84ab-7852c74735f5)
+
+
+### Вывод
+В ходе выполнения данной лабораторной работы мы настроили IP адреса на интерфейсах,настроили OSPF и MPLS, а также EoMPLS. Назначили адресацию на контейнеры, связанные между собой EoMPLS.
