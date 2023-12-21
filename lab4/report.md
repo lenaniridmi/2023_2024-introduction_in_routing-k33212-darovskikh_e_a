@@ -159,6 +159,7 @@ Date of finished: 22.12.2023
 После этого у нас автоматически появятся vrf в разделе bgp-vpn4 routes
 
 * NY
+
 ![image](https://github.com/lenaniridmi/2023_2024-introduction_in_routing-k33212-darovskikh_e_a/assets/90695447/1ec4251d-dd9c-4a97-87b4-8d374718e7aa)
 
 Соответственно в таблице маршрутизации VRF_DEVOPS
