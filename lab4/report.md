@@ -40,12 +40,39 @@ Date of finished: 22.12.2023
 
 Код по построению сети представлен в директории проекта (./lab4).
 
-![image](https://github.com/lenaniridmi/2023_2024-introduction_in_routing-k33212-darovskikh_e_a/assets/90695447/886c2c16-07a1-4338-84e1-8b55b9ac4aa6)
+![image](https://github.com/lenaniridmi/2023_2024-introduction_in_routing-k33212-darovskikh_e_a/assets/90695447/66fce58e-5cf0-4af1-80eb-264fe922c42c)
 
-Для удобства определим подсети связности уустройств. Используем команду ```sudo clab graph -t my_lab4_iBGP.yaml``` и какой нибудь графический редактор
+Для удобства определим подсети связности уустройств. Используем команду ```sudo clab graph -t my_lab4_iBGP.yaml``` и какой нибудь графический редактор.
 
+![image](https://github.com/lenaniridmi/2023_2024-introduction_in_routing-k33212-darovskikh_e_a/assets/90695447/9b3a3caa-b689-457c-96e9-c03edcdfcef5)
 
 ## Первая чать ЛР
+
+Соответственно настраиваем связность интерфейсов
+
+* NY
+
+![image](https://github.com/lenaniridmi/2023_2024-introduction_in_routing-k33212-darovskikh_e_a/assets/90695447/fbcbe1e8-4562-45f6-9b2f-29daf456ca60)
+
+* LND
+
+![image](https://github.com/lenaniridmi/2023_2024-introduction_in_routing-k33212-darovskikh_e_a/assets/90695447/dbe43e95-eec9-4c44-bf0d-d8610132a18e)
+
+* LBN
+
+![image](https://github.com/lenaniridmi/2023_2024-introduction_in_routing-k33212-darovskikh_e_a/assets/90695447/9a06f5c6-dff8-4cb0-aa27-48c999e06ffe)
+
+* SVL
+
+![image](https://github.com/lenaniridmi/2023_2024-introduction_in_routing-k33212-darovskikh_e_a/assets/90695447/c1ce49d6-a313-4025-9f35-575177ec27c4)
+
+* HKI
+
+![image](https://github.com/lenaniridmi/2023_2024-introduction_in_routing-k33212-darovskikh_e_a/assets/90695447/eb2e86ea-f556-4a44-b869-d21d40fa58d3)
+
+* SPB
+
+![image](https://github.com/lenaniridmi/2023_2024-introduction_in_routing-k33212-darovskikh_e_a/assets/90695447/cc0682fe-a653-474b-a602-cb7634bf7740)
 
 ### IBGP
 
