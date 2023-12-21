@@ -128,21 +128,25 @@ Date of finished: 22.12.2023
 
 * LND
 
-![image](https://github.com/lenaniridmi/2023_2024-introduction_in_routing-k33212-darovskikh_e_a/assets/90695447/0c5aef6f-f24f-4806-91d8-a0fdbf7d8bdf)
+![image](https://github.com/lenaniridmi/2023_2024-introduction_in_routing-k33212-darovskikh_e_a/assets/90695447/021467f3-69ff-46f3-a51e-b314d82e28e9)
+
 
 * NY
 
-![image](https://github.com/lenaniridmi/2023_2024-introduction_in_routing-k33212-darovskikh_e_a/assets/90695447/98929295-7a3e-47fe-8cb3-67cabdc2478c)
+![image](https://github.com/lenaniridmi/2023_2024-introduction_in_routing-k33212-darovskikh_e_a/assets/90695447/336481da-6f85-463f-ad37-3ba542a0672e)
+
 
 После данных настроек мы увидим значение установленного соединения на каждом из устройств.
 
 * LND
 
-![image](https://github.com/lenaniridmi/2023_2024-introduction_in_routing-k33212-darovskikh_e_a/assets/90695447/b8471e17-37df-4b79-a90b-ca906bb34f7e)
+![image](https://github.com/lenaniridmi/2023_2024-introduction_in_routing-k33212-darovskikh_e_a/assets/90695447/bde0be9e-a886-448b-8046-bc81385862c1)
+
 
 * NY
 
-![image](https://github.com/lenaniridmi/2023_2024-introduction_in_routing-k33212-darovskikh_e_a/assets/90695447/90482df4-378f-4d91-9135-0af8067785d3)
+![image](https://github.com/lenaniridmi/2023_2024-introduction_in_routing-k33212-darovskikh_e_a/assets/90695447/06236afd-dc70-49ef-85e7-7ba5405e256a)
+
 
 Такую же настройку делаем для остальных роутеров.
 
