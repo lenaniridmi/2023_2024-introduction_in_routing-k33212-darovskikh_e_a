@@ -74,11 +74,74 @@ Date of finished: 22.12.2023
 
 ![image](https://github.com/lenaniridmi/2023_2024-introduction_in_routing-k33212-darovskikh_e_a/assets/90695447/cc0682fe-a653-474b-a602-cb7634bf7740)
 
-### IBGP
+### VRF
+Для того чтобы наша таблица маршрутизации VRF_DEVOPS не попадала под действие протокола OSPF, сначала настраиваем VRF на устройствах, связанных с PC.
+
+* NY
+
+![image](https://github.com/lenaniridmi/2023_2024-introduction_in_routing-k33212-darovskikh_e_a/assets/90695447/3e76d8a0-1885-41fb-8288-0997e8a653cf)
+
+* SVL
+
+![image](https://github.com/lenaniridmi/2023_2024-introduction_in_routing-k33212-darovskikh_e_a/assets/90695447/0c59713b-9920-4cc4-b0a1-1612bedb4d67)
+
+* SPB
+
+![image](https://github.com/lenaniridmi/2023_2024-introduction_in_routing-k33212-darovskikh_e_a/assets/90695447/717f04ef-dad3-4eb6-a4cd-fccab3148ae1)
 
 ### OSPF и MPLS
 
-### VRF
+Далее настраиваем OSPF; при определении network area=backbone и заданных интерфейсвх автоматически появится связность для сетевого устройства
+
+* LND (Пример, аналогично для остальных роутеров)
+
+![image](https://github.com/lenaniridmi/2023_2024-introduction_in_routing-k33212-darovskikh_e_a/assets/90695447/dd57c26a-4ca3-45b9-8a5f-234d1d72ddd4)
+
+После настройки OSPF мы сможем увидеть расширенную таблицу маршрутизации, соответственно без VRF_DEVOPS
+
+![image](https://github.com/lenaniridmi/2023_2024-introduction_in_routing-k33212-darovskikh_e_a/assets/90695447/a4dfc3bb-2582-44f8-b215-a9f165b9b679)
+
+
+Для настройки MPLS у каждого роутера в настройках LDP прописываем его transport address
+
+* LND (Пример, для остальных аналогично их данным)
+
+![image](https://github.com/lenaniridmi/2023_2024-introduction_in_routing-k33212-darovskikh_e_a/assets/90695447/d6d31781-acac-4084-a420-b07dba7443e0)
+
+После чего задаем соседей, связанных и исходным роутером сетевыми устройствами.
+
+![image](https://github.com/lenaniridmi/2023_2024-introduction_in_routing-k33212-darovskikh_e_a/assets/90695447/d96f4bde-eaeb-48da-890f-4a2bc29c7518)
+
+Как только закончим настраивать MPLS на связанных устройствах, в разделе LDP Neighbor у каждого из них появятся соответственные соседи
+
+![image](https://github.com/lenaniridmi/2023_2024-introduction_in_routing-k33212-darovskikh_e_a/assets/90695447/36f79c8d-1967-4e59-9130-4e7400bd1659)
+
+### IBGP
+
+Протокол BGP прописывается к ближайшим интерфейсам узла. При настройке указываем нужные нам протоколы.
+
+![image](https://github.com/lenaniridmi/2023_2024-introduction_in_routing-k33212-darovskikh_e_a/assets/90695447/db94034a-f514-4bfb-8d9e-b999865b4e97)
+
+На примере (NY <---> LND)
+
+* LND
+
+![image](https://github.com/lenaniridmi/2023_2024-introduction_in_routing-k33212-darovskikh_e_a/assets/90695447/0c5aef6f-f24f-4806-91d8-a0fdbf7d8bdf)
+
+* NY
+
+![image](https://github.com/lenaniridmi/2023_2024-introduction_in_routing-k33212-darovskikh_e_a/assets/90695447/98929295-7a3e-47fe-8cb3-67cabdc2478c)
+
+После данных настроек мы увидим значение установленного соединения на каждом из устройств.
+
+* LND
+
+![image](https://github.com/lenaniridmi/2023_2024-introduction_in_routing-k33212-darovskikh_e_a/assets/90695447/b8471e17-37df-4b79-a90b-ca906bb34f7e)
+
+* NY
+
+![image](https://github.com/lenaniridmi/2023_2024-introduction_in_routing-k33212-darovskikh_e_a/assets/90695447/90482df4-378f-4d91-9135-0af8067785d3)
+
 
 ### Проверка
 
