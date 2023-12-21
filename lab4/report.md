@@ -191,11 +191,58 @@ Date of finished: 22.12.2023
 
 ![image](https://github.com/lenaniridmi/2023_2024-introduction_in_routing-k33212-darovskikh_e_a/assets/90695447/9a04980e-2d37-4abe-811f-c896b84c4f88)
 
+* Main таблица
+
+![image](https://github.com/lenaniridmi/2023_2024-introduction_in_routing-k33212-darovskikh_e_a/assets/90695447/870ed869-b1ec-4d9f-ba78-b6bef7644194)
+
+
 ## Вторая часть ЛР
+
+Для начала разбираем VRF на всех устройствах, связанных с PC
+
+![image](https://github.com/lenaniridmi/2023_2024-introduction_in_routing-k33212-darovskikh_e_a/assets/90695447/c4daf4a2-42d6-4260-8847-fa8e1f310c36)
 
 ### VPLS
 
+Добавим интерфейс VPLS, настроим тунели, после чего добавим экземпляры созданных туннелей в качестве порта участника основого моста
+
+* На примере NY
+
+Новый интерфейс
+
+![image](https://github.com/lenaniridmi/2023_2024-introduction_in_routing-k33212-darovskikh_e_a/assets/90695447/4f9e24e6-671e-4d4c-b341-bedd89123fdd)
+
+В разделе VPLS
+
+![image](https://github.com/lenaniridmi/2023_2024-introduction_in_routing-k33212-darovskikh_e_a/assets/90695447/abb4c1fd-5312-462b-aeea-a55f162639a0)
+
+![image](https://github.com/lenaniridmi/2023_2024-introduction_in_routing-k33212-darovskikh_e_a/assets/90695447/3453c89a-cdcb-49bd-9188-fcf08f90c862)
+
+Bridge port VPLS был связан с соответственными интерфейсами PC и vpls1, vpls2
+
+![image](https://github.com/lenaniridmi/2023_2024-introduction_in_routing-k33212-darovskikh_e_a/assets/90695447/d51d8b15-4228-4414-ab17-3689afb469c1)
+
+
+Аналогично для SPB и SVL
+
+Соответственно, после настройки, значения inactive пропадает
+
+![image](https://github.com/lenaniridmi/2023_2024-introduction_in_routing-k33212-darovskikh_e_a/assets/90695447/e1b4bf43-4717-449c-b1ca-c767b1907781)
+
+
 ### Проверка
+
+* PC2 -> PC3; PC2 -> PC1  
+
+![image](https://github.com/lenaniridmi/2023_2024-introduction_in_routing-k33212-darovskikh_e_a/assets/90695447/1be273ac-73ba-4d01-917f-ed5fd2b6119a)
+
+* PC1 -> PC2; PC1 -> PC3
+
+![image](https://github.com/lenaniridmi/2023_2024-introduction_in_routing-k33212-darovskikh_e_a/assets/90695447/8c1f1db8-1de2-47ce-9ad4-23cb7de4a6e5)
+
+* PC3 -> PC1; PC3 -> PC2
+
+![image](https://github.com/lenaniridmi/2023_2024-introduction_in_routing-k33212-darovskikh_e_a/assets/90695447/47c2deed-979b-40fd-be82-ef46a4565525)
 
 
 ## Вывод
