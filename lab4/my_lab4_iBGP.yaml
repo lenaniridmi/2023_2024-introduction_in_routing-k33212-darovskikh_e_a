@@ -1,0 +1,55 @@
+name: my_lab4_iBGP
+
+mgmt:
+  network: statics
+  ipv4-subnet: 172.34.34.0/24
+
+topology:
+  nodes:
+    R01_NY:
+      kind: vr-ros
+      image: vrnetlab/vr-routeros:6.47.9
+
+    R01_LND:
+      kind: vr-ros
+      image: vrnetlab/vr-routeros:6.47.9
+           
+    R01_HKI:
+      kind: vr-ros
+      image: vrnetlab/vr-routeros:6.47.9
+         
+    R01_SPB:
+      kind: vr-ros
+      image: vrnetlab/vr-routeros:6.47.9
+           
+    R01_SVL:
+      kind: vr-ros
+      image: vrnetlab/vr-routeros:6.47.9
+            
+    R01_LBN:
+      kind: vr-ros
+      image: vrnetlab/vr-routeros:6.47.9
+          
+    PC1:
+      kind: vr-ros
+      image: vrnetlab/vr-routeros:6.47.9
+
+    PC2:
+      kind: vr-ros
+      image: vrnetlab/vr-routeros:6.47.9
+
+    PC3:
+      kind: vr-ros
+      image: vrnetlab/vr-routeros:6.47.9
+
+  links:
+    - endpoints: ["PC1:eth1","R01_NY:eth1"]
+    - endpoints: ["R01_NY:eth2","R01_LND:eth1"]
+    - endpoints: ["R01_LND:eth2","R01_LBN:eth1"]
+    - endpoints: ["R01_LND:eth3","R01_HKI:eth1"]
+    - endpoints: ["R01_LBN:eth2","R01_HKI:eth2"]
+    - endpoints: ["R01_HKI:eth3","R01_SPB:eth1"]
+    - endpoints: ["R01_LBN:eth3","R01_SVL:eth1"]
+    - endpoints: ["R01_SVL:eth2","PC3:eth1"]
+    - endpoints: ["R01_SPB:eth3","PC2:eth1"]
+
