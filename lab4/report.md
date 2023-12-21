@@ -142,6 +142,8 @@ Date of finished: 22.12.2023
 
 ![image](https://github.com/lenaniridmi/2023_2024-introduction_in_routing-k33212-darovskikh_e_a/assets/90695447/90482df4-378f-4d91-9135-0af8067785d3)
 
+Такую же настройку делаем для остальных роутеров.
+
 
 ### Проверка
 
