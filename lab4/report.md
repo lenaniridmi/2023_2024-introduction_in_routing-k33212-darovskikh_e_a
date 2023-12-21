@@ -97,6 +97,8 @@ Date of finished: 22.12.2023
 
 ![image](https://github.com/lenaniridmi/2023_2024-introduction_in_routing-k33212-darovskikh_e_a/assets/90695447/dd57c26a-4ca3-45b9-8a5f-234d1d72ddd4)
 
+![image](https://github.com/lenaniridmi/2023_2024-introduction_in_routing-k33212-darovskikh_e_a/assets/90695447/3e632d4c-18c8-435f-9d7f-12f016298cc6)
+
 После настройки OSPF мы сможем увидеть расширенную таблицу маршрутизации, соответственно без VRF_DEVOPS
 
 ![image](https://github.com/lenaniridmi/2023_2024-introduction_in_routing-k33212-darovskikh_e_a/assets/90695447/a4dfc3bb-2582-44f8-b215-a9f165b9b679)
@@ -144,8 +146,46 @@ Date of finished: 22.12.2023
 
 Такую же настройку делаем для остальных роутеров.
 
+Также, на устройствах, связанных с PC настраиваем VRF для iBGP
+
+* NY (пример, также для SPB, SVL)
+
+![image](https://github.com/lenaniridmi/2023_2024-introduction_in_routing-k33212-darovskikh_e_a/assets/90695447/c666e54c-370c-45ec-a450-7b2bc040ba6c)
+
+После этого у нас автоматически появятся vrf в разделе bgp-vpn4 routes
+
+* NY
+![image](https://github.com/lenaniridmi/2023_2024-introduction_in_routing-k33212-darovskikh_e_a/assets/90695447/1ec4251d-dd9c-4a97-87b4-8d374718e7aa)
+
+Соответственно в таблице маршрутизации VRF_DEVOPS
+
+* NY
+
+![image](https://github.com/lenaniridmi/2023_2024-introduction_in_routing-k33212-darovskikh_e_a/assets/90695447/1947c976-a3f8-4a85-a031-c39824b985c4)
+
+* SPB
+
+![image](https://github.com/lenaniridmi/2023_2024-introduction_in_routing-k33212-darovskikh_e_a/assets/90695447/2bb9d23e-779f-47a8-9dce-57e202a1c95e)
+
+* SVL
+
+![image](https://github.com/lenaniridmi/2023_2024-introduction_in_routing-k33212-darovskikh_e_a/assets/90695447/1f5df0e0-e10a-46e1-832b-5fbb4501d475)
+
 
 ### Проверка
+
+* PC2 -> PC3; PC2 -> PC1  
+
+![image](https://github.com/lenaniridmi/2023_2024-introduction_in_routing-k33212-darovskikh_e_a/assets/90695447/33bd9419-a9b6-4f45-a53e-efe3f1d1adda)
+
+
+* PC1 -> PC3; PC1 -> PC2
+
+![image](https://github.com/lenaniridmi/2023_2024-introduction_in_routing-k33212-darovskikh_e_a/assets/90695447/6d8d36e8-5301-409b-a919-1fbd601888a0)
+
+* PC3 -> PC2; PC3 -> PC1
+
+![image](https://github.com/lenaniridmi/2023_2024-introduction_in_routing-k33212-darovskikh_e_a/assets/90695447/9a04980e-2d37-4abe-811f-c896b84c4f88)
 
 ## Вторая часть ЛР
 
@@ -154,4 +194,6 @@ Date of finished: 22.12.2023
 ### Проверка
 
 
-## <a name="section6">Вывод</a>
+## Вывод
+
+В ходе выполнения данной лабораторной работы мы познакомились на практике с протоколами BGP, MPLS и правилами организации L3VPN и VPLS.
